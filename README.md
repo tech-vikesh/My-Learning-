@@ -21,12 +21,11 @@ Answer> A container is a lightweight package that contains an application along 
 
 ## Docker Architecture
 - Docker consists of the following components:
-- 
 ## 1. Docker Client
 - The Docker Client is the command-line tool used by users.
 ## Example:
  Bash_
-- docker run nginx
+## docker run nginx
 - The client sends commands to the Docker Daemon.
 
 ## 2. Docker Daemon (dockerd)
@@ -48,7 +47,7 @@ Answer> A container is a lightweight package that contains an application along 
 - A Container is a running instance of a Docker Image.
 ## Example:
   Bash_
-- docker run nginx
+## docker run nginx
 - This command creates and starts an Nginx container.
 
 ## 5. Docker Registry
@@ -56,7 +55,7 @@ Answer> A container is a lightweight package that contains an application along 
 - The most popular registry is Docker Hub.
 ## Example:
   Bash_
-- docker pull nginx
+## docker pull nginx
 - Docker downloads the image from Docker Hub.
 
 ## Docker Architecture Diagram
@@ -81,8 +80,9 @@ Answer> A container is a lightweight package that contains an application along 
  Docker Hub
 (Registry)
 
+
 ## Task 2: Install Docker
-Verify Installation
+- Verify Installation
 Bash_
 ## docker --version
 
