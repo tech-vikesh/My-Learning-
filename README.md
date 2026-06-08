@@ -48,7 +48,7 @@ A Container is a running instance of a Docker Image.
 ## Example:
 Bash_
 docker run nginx
-This command creates and starts an Nginx container.
+## This command creates and starts an Nginx container.
 
 ## 5. Docker Registry
 A Docker Registry stores Docker Images.
@@ -58,8 +58,8 @@ Bash_
 docker pull nginx
 Docker downloads the image from Docker Hub.
 
-Docker Architecture Diagram
- Plain text
+## Docker Architecture Diagram
+## Plain text
 +----------------+
 | Docker Client  |
 | (docker CLI)   |
