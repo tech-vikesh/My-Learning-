@@ -83,10 +83,18 @@ Answer> A container is a lightweight package that contains an application along 
 
 ## Task 2: Install Docker
 - Verify Installation
-Bash_
+- Bash_
 ## docker --version
 
 ## Run Hello World Container
 
 Bash_
 ## docker run hello-world
+
+- This command:
+- Checks if the image exists locally.
+- Downloads it from Docker Hub if needed.
+- Creates a container.
+- Runs the container.
+- Displays a success message.
+
