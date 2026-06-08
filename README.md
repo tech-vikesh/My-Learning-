@@ -16,13 +16,13 @@ Answer> A container is a lightweight package that contains an application along 
 = Virtual Machines > Has its own guest OS, Heavyweight, Takes minutes to start, Uses more resources, Suitable for running multiple operating systems
 
 ## Real Difference
-A Virtual Machine virtualizes the hardware and runs a complete operating system.
-A Container virtualizes the operating system and shares the host OS kernel, making it faster and more efficient
+- A Virtual Machine virtualizes the hardware and runs a complete operating system.
+- A Container virtualizes the operating system and shares the host OS kernel, making it faster and more efficient
 
 ## Docker Architecture
 Docker consists of the following components:
 ## 1. Docker Client
-The Docker Client is the command-line tool used by users.
+- The Docker Client is the command-line tool used by users.
 ## Example:
 Bash_
 ## docker run nginx
