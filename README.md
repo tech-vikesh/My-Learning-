@@ -24,8 +24,8 @@
 ## 1. Docker Client
 - The Docker Client is the command-line tool used by users.
 ## Example:
-Bash_
--  docker run nginx
+'''Bash_
+  docker run nginx
    The client sends commands to the Docker Daemon.
 
 ## 2. Docker Daemon (dockerd)
