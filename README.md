@@ -48,7 +48,7 @@ bash_
 ## Example:
 Bash_
 - docker run nginx
- This command creates and starts an Nginx container.
+## This command creates and starts an Nginx container.
 
 ## 5. Docker Registry
 - A Docker Registry stores Docker Images.
