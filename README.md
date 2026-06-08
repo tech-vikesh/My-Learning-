@@ -60,23 +60,23 @@ Docker downloads the image from Docker Hub.
 
 ## Docker Architecture Diagram
 ## Plain text
-+----------------+
+## +----------------+
 | Docker Client  |
 | (docker CLI)   |
 +-------+--------+
         |
         v
-+----------------+
+## +----------------+
 | Docker Daemon  |
 |   (dockerd)    |
 +-------+--------+
         |
-  +-----+-----+
+##  +-----+-----+
   |           |
   v           v
 Images    Containers
   |
   v
-Docker Hub
-(Registry)
+## Docker Hub
+## Registry)
 
