@@ -22,3 +22,55 @@ Docker consists of the following components:
 1. Docker Client
 The Docker Client is the command-line tool used by users.
 Example: docker run nginx
+
+The client sends commands to the Docker Daemon.
+2. Docker Daemon (dockerd)
+The Docker Daemon is the background service that:
+Builds images
+Runs containers
+Manages networks
+Manages storage
+3. Docker Images
+A Docker Image is a read-only template used to create containers.
+Example:
+Bash_
+nginx
+ubuntu
+mysql
+4. Docker Containers
+A Container is a running instance of a Docker Image.
+Example:
+Bash_
+docker run nginx
+This command creates and starts an Nginx container.
+5. Docker Registry
+A Docker Registry stores Docker Images.
+The most popular registry is Docker Hub.
+Example:
+Bash_
+docker pull nginx
+Docker downloads the image from Docker Hub.
+
+Plan text
+
+Docker Architecture Diagram
++----------------+
+| Docker Client  |
+| (docker CLI)   |
++-------+--------+
+        |
+        v
++----------------+
+| Docker Daemon  |
+|   (dockerd)    |
++-------+--------+
+        |
+  +-----+-----+
+  |           |
+  v           v
+Images    Containers
+  |
+  v
+Docker Hub
+(Registry)
+
