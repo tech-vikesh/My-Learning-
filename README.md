@@ -99,7 +99,7 @@ Bash_
 - Displays a success message.
 
 ## Task 3: Run Real Containers
-- Run Nginx Container
+Run Nginx Container
 Bash
 -  docker run -d -p 8080:80 nginx
 ## Open:
