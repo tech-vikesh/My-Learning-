@@ -2,7 +2,7 @@
 
 ## Task 1: What is Docker?
 ## What is a Container and Why Do We Need It?
-Answer> A container is a lightweight package that contains an application along with all its dependencies, libraries, and configuration files.
+- A container is a lightweight package that contains an application along with all its dependencies, libraries, and configuration files.
 
 ## We need containers because:
 - They ensure applications run the same way on every system.
