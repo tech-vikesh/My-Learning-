@@ -91,7 +91,7 @@ Answer> A container is a lightweight package that contains an application along 
 Bash_
 ## docker run hello-world
 
-- This command:
+## This command:
 - Checks if the image exists locally.
 - Downloads it from Docker Hub if needed.
 - Creates a container.
