@@ -26,7 +26,7 @@
 ## Example:
 bash_
 -  docker run nginx
-The client sends commands to the Docker Daemon.
+## The client sends commands to the Docker Daemon.
 
 ## 2. Docker Daemon (dockerd)
 - The Docker Daemon is the background service that:
