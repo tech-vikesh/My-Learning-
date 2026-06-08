@@ -25,7 +25,7 @@ Answer> A container is a lightweight package that contains an application along 
 ## 1. Docker Client
 - The Docker Client is the command-line tool used by users.
 ## Example:
-- Bash_
+ Bash_
 - docker run nginx
 - The client sends commands to the Docker Daemon.
 
@@ -39,7 +39,7 @@ Answer> A container is a lightweight package that contains an application along 
 ## 3. Docker Images
 - A Docker Image is a read-only template used to create containers.
 ## Example:
-- Bash_
+  Bash_
 - nginx
 - ubuntu
 - mysql
@@ -47,7 +47,7 @@ Answer> A container is a lightweight package that contains an application along 
 ## 4. Docker Containers
 - A Container is a running instance of a Docker Image.
 ## Example:
-- Bash_
+  Bash_
 - docker run nginx
 - This command creates and starts an Nginx container.
 
@@ -55,31 +55,31 @@ Answer> A container is a lightweight package that contains an application along 
 - A Docker Registry stores Docker Images.
 - The most popular registry is Docker Hub.
 ## Example:
-- Bash_
+  Bash_
 - docker pull nginx
 - Docker downloads the image from Docker Hub.
 
 ## Docker Architecture Diagram
 - Plain text
- - +----------------+
--  | Docker Client  |
--  | (docker CLI)   |
--  +-------+--------+
--       |
--       v
-- +----------------+
-- | Docker Daemon  |
-- |   (dockerd)    |
-- +-------+--------+
--         |
--  +-----+-----+
--  |           |
--  v           v
-- Images    Containers
--  |
--  v
-- Docker Hub
-- (Registry)
+  +----------------+
+  | Docker Client  |
+  | (docker CLI)   |
+  +-------+--------+
+       |
+       v
+ +----------------+
+ | Docker Daemon  |
+ |   (dockerd)    |
+ +-------+--------+
+         |
+  +-----+-----+
+  |           |
+  v           v
+ Images    Containers
+  |
+  v
+ Docker Hub
+(Registry)
 
 ## Task 2: Install Docker
 Verify Installation
