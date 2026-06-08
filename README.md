@@ -56,7 +56,7 @@ Bash_
 ## Example:
 Bash_
 - docker pull nginx
-  Docker downloads the image from Docker Hub.
+## Docker downloads the image from Docker Hub.
 
 ## Docker Architecture Diagram
 - Plain text
