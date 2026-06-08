@@ -98,3 +98,35 @@ Bash_
 - Runs the container.
 - Displays a success message.
 
+Task 3: Run Real Containers
+Run Nginx Container
+Bash
+docker run -d -p 8080:80 nginx
+Open:
+Plain text
+http://localhost:8080
+You should see the Nginx welcome page.
+Run Ubuntu Container
+Bash
+docker run -it ubuntu bash
+Check Linux commands:
+Bash
+pwd
+ls
+whoami
+Exit:
+Bash
+exit
+List Running Containers
+Bash
+docker ps
+List All Containers
+Bash
+docker ps -a
+Stop a Container
+Bash
+docker stop <container_id>
+Remove a Container
+Bash
+docker rm <container_id>
+
