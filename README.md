@@ -80,3 +80,12 @@ Images    Containers
 Docker Hub
  (Registry)
 
+## Task 2: Install Docker
+Verify Installation
+Bash_
+## docker --version
+
+## Run Hello World Container
+
+Bash_
+## docker run hello-world
