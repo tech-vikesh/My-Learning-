@@ -106,7 +106,7 @@ Bash
 Plain text
 -  http://localhost:8080
 ## You should see the Nginx welcome page.
-Run Ubuntu Container
+##  Run Ubuntu Container
 Bash
 -   docker run -it ubuntu bash
 ## Check Linux commands:
